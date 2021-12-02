@@ -9,6 +9,7 @@ all:
     docker build -f ./Dockerfile-7.3 .
     docker build -f ./Dockerfile-7.4 .
     docker build -f ./Dockerfile-8.0 .
+    docker build -f ./Dockerfile-8.1 .
 
 all-nc:
     docker build -f ./Dockerfile-5.6 --no-cache --pull .
@@ -18,3 +19,4 @@ all-nc:
     docker build -f ./Dockerfile-7.3 --no-cache --pull .
     docker build -f ./Dockerfile-7.4 --no-cache --pull .
     docker build -f ./Dockerfile-8.0 --no-cache --pull .
+    docker build -f ./Dockerfile-8.1 --no-cache --pull .
